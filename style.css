@@ -1,0 +1,157 @@
+/* common style */
+body{
+    font-family: 'Roboto', sans-serif;
+    padding: 10px;
+    color: #3A3A3A;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+hr{
+ border: 1px solid whitesmoke;
+}
+.icon{
+    color:white
+ }
+ p a{
+     color: white;
+     background-color: rgb(11, 46, 241);
+     padding: 10px;
+     text-align: center;
+     border-radius: 30px;
+ }
+/* style for nav bar */
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+}
+.top-menu>ul{
+    display: flex;
+   list-style: none;
+}
+.top-menu li{
+    padding-right: 10px;
+}
+.Influencing{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Influencing div{
+    width: 50%;
+}
+.Influencing img{
+    width: 75%;
+}
+.company-logo{
+  height: 110px;
+}
+.company-logo div{
+    margin: 0 165px;
+}
+
+.company-logo>div>img{
+    padding: 10px;
+    width: 10%;
+}
+
+/* --------------------------------
+style for popular collection section 
+--------------------------------------*/
+.all-collection{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 30px 30px;
+    justify-content: center;
+    align-items: center;
+
+}
+.collection{
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 5px; 
+    background: #FFFFFF;
+    width: 329px;
+    height: 520px;
+}
+.collection>img{
+    width: 300px; 
+    height: 256px;
+    border-radius: 5px;
+    padding: 17px 15px 0 14px;
+}
+.collection-title{
+    font-weight: 500px;
+    font-size: 28px;
+    color: #18191F;
+    padding: 16px 164px 0 14px;
+}
+.price{
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.77); 
+}
+.collection span{
+    padding-left: 16px;
+  
+}
+.ratings{
+    width: 11.07px;
+    height: 10.32px; 
+    color: #FB8200; 
+}
+.rating-point{
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: 0.1px;
+    color: #5E6366;
+}
+.collection-details{
+    font-weight: bold;
+    letter-spacing: 0.018em;
+    color: #787885;
+    padding-left: 16px;
+}
+
+/*------------------------------
+ Upcoming products degine
+-------------------------------- */
+/* .upcoming-products{
+   display: grid;
+   grid-gap:15px;
+   justify-content: center;
+   align-items: center;
+} */
+.upcoming-products{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 25px;
+}
+.products{
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 10px; 
+    background: #FFFFFF;
+    width: 260px;
+   margin-top: 15px;
+   padding: 10px;
+}
+.products>img{
+    height: 250px;
+    width: 250px;
+    border-radius: 10px;
+ padding-left: 4px;
+ padding-right: 3px;
+ padding-top: 3px;
+}
+
+/*-------------------
+ footer degine 
+------------------- */
+.foot-degine{
+    text-align: center;
+ background-color: #0A0826;
+ color: #FFFFFF;
+ padding: 20px;
+ margin-top: 20px;
+}

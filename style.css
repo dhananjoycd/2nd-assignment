@@ -22,7 +22,7 @@ hr{
      border-radius: 30px;
  }
  /* -------------------------
- CSS effect for user
+ CSS link effect for user
  -------------------------- */
  p a:hover{
     color:whitesmoke;
@@ -32,6 +32,23 @@ hr{
     border-radius: 30px;
     border: 1px solid green;
 }
+
+/*-----------------------------------------*\
+ animation for bonus number ha ha..
+ /*--------------------------------------------*/
+.influencer-photo{
+    animation: camera-anim 3s infinite;
+    position: absolute;
+}
+@keyframes camera-anim {
+ 0%{top:0px; right: 0px;}
+ 50%{top:-20px; right: -0px;}
+ 70%{top:-20px; right: -20px;}
+ 100%{top:0px; right: 0px;}
+ }
+/* For responsive */
+
+
 /* style for nav bar */
 .nav-bar{
     display: flex;

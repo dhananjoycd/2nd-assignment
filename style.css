@@ -39,6 +39,10 @@ hr{
 .influencer-photo{
     animation: camera-anim 3s infinite;
     position: absolute;
+    padding: 10px;
+}
+.position{
+    position:relative;
 }
 @keyframes camera-anim {
  0%{top:0px; right: 0px;}
@@ -121,8 +125,15 @@ hr{
 }
 .Influencing{
     display: flex;
-    justify-content: center;
+    justify-content:space-between;
     align-items: center;
+    padding: 20px;
+    margin-left: 20px;
+}
+.influencer-photo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .Influencing div{
     width: 50%;
